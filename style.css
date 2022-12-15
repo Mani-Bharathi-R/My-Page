@@ -9,7 +9,7 @@ html{
 }
 body{
     background-color: #180b0b;
-    color: #fff;
+    color: rgb(253, 253, 253)
 }
 #header{
     width:100%;
@@ -29,6 +29,12 @@ nav{
 }
 .logo{
     width:140px;
+    display: block;
+}
+.logo img{
+    display: block;
+    border-radius: 20px;
+
 }
 nav ul li{
     display: inline-block;
@@ -67,6 +73,9 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color:#ff004f;
+}
+.header-text h3 span{
+    color:#fffb00;
 }
 /* About */
 #about{
